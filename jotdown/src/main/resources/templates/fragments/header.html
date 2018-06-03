@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:fragment="includecss">
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	 <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	        <!-- Custom styles for this template -->
+	  <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+	
+	<link href="css/agency.min.css" rel="stylesheet">
+</head>
+<body>
+<!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-fixed-top" id="mainNav" th:fragment="header">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Jot Down</a>
+          <ul class="nav navbar-nav navbar-right">
+          <li >
+              <a class="nav-link js-scroll-trigger navbar-right" href="/addnotes"><span class="glyphicon glyphicon-pencil"></span> Add Notes</a>
+            </li>
+            <li >
+              <a class="nav-link js-scroll-trigger navbar-right" href="/readnotes"><span class="glyphicon glyphicon-book"></span> Read Notes</a>
+            </li>
+		      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+		      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+		  </ul>
+        </div>
+    </nav>
+</body>
+</html>
