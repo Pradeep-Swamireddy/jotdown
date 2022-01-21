@@ -1,4 +1,4 @@
-# jotdown
+# jotdown - Feature/add-notes
 Application to Add and Read Notes
 
 Current State-
